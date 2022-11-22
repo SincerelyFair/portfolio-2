@@ -2,7 +2,7 @@ class _app {
   id = 0;
   videoElement = null;
   audioElement = null;
-  musicVolume = 0.14;
+  musicVolume = 1;
   musicFadeIn = 4000;
   skippedIntro = false;
   backgroundToggler = false;
