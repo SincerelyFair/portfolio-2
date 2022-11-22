@@ -37,7 +37,7 @@ $(document).ready(() => {
   if (mobileAndTabletCheck()) {
     $('#background').replaceWith('<div id="background" style="background-image: url(assets/images/mobile-background.jpg);"></div>');
 
-    app.shouldIgnoreVideo = true;
+    app.shouldIgnoreVideo = false;
   }
 
   app.titleChanger([' ', 'F','Fa','Fai','Fair','Fair#','Fair#0', 'Fair#00', 'Fair#000', 'Fair#0001', 'Fair#000', 'Fair#00', 'Fair#0', 'Fair#', 'Fair', 'Fai', 'Fa', 'F']);
